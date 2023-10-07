@@ -1,5 +1,8 @@
-nav a.active {
-    text-decoration: underline;
-    color: red;
+ul a.active {
+    color: whitesmoke;
+    background-color: #fcb41e;
+    padding: 8px 16px;
+    border-radius: 24px;
+    font:medium;
     
 }

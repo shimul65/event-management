@@ -6,11 +6,11 @@ import logo from '../../assets/unica.jpg'
 const Navbar = () => {
 
     const navLinks = <>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/services'>Services</NavLink></li>
-        <li><NavLink to='/gallery'>Gallery</NavLink></li>
-        <li><NavLink to='/blogs'>Blogs</NavLink></li>
-        <li><NavLink to='/about'>About</NavLink></li>
+        <li className=" py-2"><NavLink to='/'>Home</NavLink></li>
+        <li className=" py-2"><NavLink to='/services'>Services</NavLink></li>
+        <li className=" py-2"><NavLink to='/gallery'>Gallery</NavLink></li>
+        <li className=" py-2"><NavLink to='/blogs'>Blogs</NavLink></li>
+        <li className=" py-2"><NavLink to='/about'>About</NavLink></li>
         {/* {user && <>
             <li><NavLink to='/profile'>Profile</NavLink></li>
             <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 <Link to='/' className=""><img src={logo} alt="" /><p className="ml-16 mt-1 font-normal text-[#676767]">Event Agency</p></Link>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="flex justify-center items-center border gap-3 px-1">
+                <ul className="flex justify-center items-center gap-6 px-1">
                     {navLinks}
                 </ul>
             </div>

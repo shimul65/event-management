@@ -5,8 +5,8 @@ import banner4 from '../../assets/banner4.jpg'
 
 const Banner = () => {
     return (
-        <div className="carousel w-full relative rounded-lg h-[300px] md:h-[610px] lg:h-[730px]">
-            {/* <!--banner slider 1 --> */}
+        <div className="carousel w-full relative rounded-lg my-5 ">
+            {/* banner slider 1*/}
             <div id="slide1" className="carousel-item border border-black-700 hero relative w-full md:h-[600px]"
                 style={{ backgroundImage: `url(${banner1})`, backgroundSize: '100% 100%' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
@@ -28,7 +28,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            {/* <!--banner slider 2 --> */}
+            {/* banner slider 2*/}
             <div id="slide2" className="carousel-item border border-black-700 hero relative w-full md:h-[600px]"
                 style={{ backgroundImage: `url(${banner2})`, backgroundSize: '100% 100%' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
@@ -50,7 +50,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            {/* <!--banner slider 3 --> */}
+            {/* banner slider 3 */}
             <div id="slide3" className="carousel-item border border-black-700 hero relative w-full md:h-[600px]"
                 style={{ backgroundImage: `url(${banner4})`, backgroundSize: '100% 100%' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
@@ -73,7 +73,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-            {/* <!--banner slider 4 --> */}
+            {/* banner slider 4 */}
             <div id="slide4" className="carousel-item border border-black-700 hero relative w-full md:h-[600px]"
                 style={{ backgroundImage: `url(${banner3})`, backgroundSize: '100% 100%' }}>
                 <div className="hero-overlay bg-opacity-60"></div>

@@ -1,10 +1,12 @@
 import Banner from "../../Components/Banner/Banner";
+import EventPlan from "../../Components/EventPlan/EventPlan";
 
 
 const Home = () => {
     return (
-        <div className="min-h-[600px]">
+        <div className="">
             <Banner></Banner>
+            <EventPlan></EventPlan>
         </div>
     );
 };

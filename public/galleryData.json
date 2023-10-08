@@ -1,98 +1,114 @@
 [
     {
         "id": 1,
-        "img": "party1.jpg",
+        "img": "https://i.ibb.co/F6tdjNg/banner2.jpg",
         "partyDate": "10-May-2023",
         "partyTitle": "Spring Fling"
     },
     {
         "id": 2,
-        "img": "party2.jpg",
+        "img": "https://i.ibb.co/GVMK8VS/oliver-pan-o-Fx-HLYKg-LA-unsplash.jpg",
         "partyDate": "15-Jun-2023",
-        "partyTitle": "Beach Bash"
+        "partyTitle": "Beach Bash Event"
     },
     {
         "id": 3,
-        "img": "party3.jpg",
+        "img": "https://i.ibb.co/JtxFyYf/aleksandr-popov-9v-Ddkx-SCAD4-unsplash.jpg",
         "partyDate": "20-Jul-2023",
-        "partyTitle": "Neon Night"
+        "partyTitle": "Neon Night Event"
     },
     {
         "id": 4,
-        "img": "party4.jpg",
+        "img": "https://i.ibb.co/9GHFKB2/jan-pictures-e3j-Te-FEu-Nx-M-unsplash.jpg",
         "partyDate": "5-Aug-2023",
-        "partyTitle": "Masquerade Ball"
+        "partyTitle": "Masquerade Ball Wedding"
     },
     {
         "id": 5,
-        "img": "party5.jpg",
+        "img": "https://i.ibb.co/TLfR4tb/ecaterina-madeline-Mt-P8-KTf-T4l4-unsplash.jpg",
         "partyDate": "12-Sep-2023",
-        "partyTitle": "Summer Soiree"
+        "partyTitle": "Summer Soiree Event"
     },
     {
         "id": 6,
-        "img": "party6.jpg",
+        "img": "https://i.ibb.co/9VbWqNP/michelle-jimenez-x-Pq-Ybgq1jw-U-unsplash.jpg",
         "partyDate": "25-Oct-2023",
-        "partyTitle": "Garden Gala"
+        "partyTitle": "Garden Gala Wedding"
     },
     {
         "id": 7,
-        "img": "party7.jpg",
+        "img": "https://i.ibb.co/m5NxzdM/kelsey-chance-t-AH2c-A-BL5g-unsplash.jpg",
         "partyDate": "2-Nov-2023",
         "partyTitle": "Pirate Party"
     },
     {
         "id": 8,
-        "img": "party8.jpg",
+        "img": "https://i.ibb.co/zb3KMmm/jonathan-borba-vc-X5-Ah-Bwk6s-unsplash.jpg",
         "partyDate": "8-Dec-2023",
         "partyTitle": "Holiday Mixer"
     },
     {
         "id": 9,
-        "img": "party9.jpg",
+        "img": "https://i.ibb.co/x2TLBQH/hannah-busing-i-Rv-R7-Q1-KQLE-unsplash.jpg",
         "partyDate": "15-Jan-2023",
-        "partyTitle": "Winter Wonderland"
+        "partyTitle": "Neon & Michel Wedding"
     },
     {
         "id": 10,
-        "img": "party10.jpg",
+        "img": "https://i.ibb.co/qpv8SbM/erik-witsoe-ya8-RPz-S-Lhs-unsplash.jpg",
         "partyDate": "14-Feb-2023",
         "partyTitle": "Valentine's Dance"
     },
     {
         "id": 11,
-        "img": "party11.jpg",
+        "img": "https://i.ibb.co/LQFcpBH/gaelle-marcel-vrk-SVp-Owchk-unsplash.jpg",
         "partyDate": "22-Mar-2023",
         "partyTitle": "St. Patrick's Celebration"
     },
     {
         "id": 12,
-        "img": "party12.jpg",
+        "img": "https://i.ibb.co/MRYmPbW/dave-lastovskiy-Ryg-Id-Tavhk-Q-unsplash.jpg",
         "partyDate": "10-Apr-2023",
         "partyTitle": "Easter Extravaganza"
     },
     {
         "id": 13,
-        "img": "party13.jpg",
+        "img": "https://i.ibb.co/4SWVz69/vitolda-klein-R4m2cdqxlv8-unsplash.jpg",
         "partyDate": "5-May-2023",
-        "partyTitle": "Cinco de Mayo Fiesta"
+        "partyTitle": "Fiesta "
     },
     {
         "id": 14,
-        "img": "party14.jpg",
+        "img": "https://i.ibb.co/BVZcnfv/steven-abraham-L9-BHt-Fxyaak-unsplash.jpg",
         "partyDate": "18-Jun-2023",
-        "partyTitle": "Summer Kickoff"
+        "partyTitle": "Summer Kickoff Event"
     },
     {
         "id": 15,
-        "img": "party15.jpg",
+        "img": "https://i.ibb.co/DgKqzxp/lee-myungseong-y1-XXWct5r-Bo-unsplash.jpg",
         "partyDate": "4-Jul-2023",
-        "partyTitle": "Independence Day BBQ"
+        "partyTitle": "BBQ Event"
     },
     {
         "id": 16,
-        "img": "party16.jpg",
+        "img": "https://i.ibb.co/dM4hh2j/lee-vue-t-E4tioi-VJNo-unsplash.jpg",
         "partyDate": "9-Aug-2023",
         "partyTitle": "Luau Party"
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

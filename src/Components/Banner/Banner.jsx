@@ -18,7 +18,7 @@ const Banner = () => {
                         </h2>
                         <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
-                            className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
+                            className="btn rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-lg font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide4"
@@ -40,7 +40,7 @@ const Banner = () => {
                         </h2>
                         <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
-                            className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
+                            className="btn rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-lg font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1"
@@ -63,7 +63,7 @@ const Banner = () => {
                         </h2>
                         <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
-                            className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
+                            className="btn rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-lg font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2"
@@ -85,7 +85,7 @@ const Banner = () => {
                         </h2>
                         <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
-                            className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
+                            className="btn rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-lg font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide3"

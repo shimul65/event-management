@@ -16,7 +16,7 @@ const Banner = () => {
                             <br />
                             You Celebrate
                         </h2>
-                        <p className="text-sm md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
+                        <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
                             className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
@@ -36,9 +36,9 @@ const Banner = () => {
                     <div className="flex flex-col items-center space-y-7 lg:mb-20">
                         <h2 className=" text-3xl md:text-7xl font-extrabold text-center text-white"><span className='text-[#fcb41e]'>Let Us Help</span>
                             <br />
-                            <span className='text-6xl'>You Create</span>
+                            <span className='md:text-6xl text-2xl'>You Create</span>
                         </h2>
-                        <p className="text-sm md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
+                        <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
                             className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
@@ -55,13 +55,13 @@ const Banner = () => {
                 style={{ backgroundImage: `url(${banner4})`, backgroundSize: '100% 100%' }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="">
-                    <div className="flex flex-col items-center space-y-7 lg:mb-20">
+                    <div className="flex flex-col items-center my-8 md:my-0 space-y-7 lg:mb-20">
                         <h2 className=" text-3xl md:text-7xl font-extrabold text-center text-white"><span className='text-[#fcb41e]'>From Set Up</span>
                             <br />
-                            <span className='text-5xl'>to</span><br />
-                            <span className='text-6xl'>Clean Up</span>
+                            <span className='md:text-5xl text-2xl'>to</span><br />
+                            <span className='md:text-6xl text-36xl'>Clean Up</span>
                         </h2>
-                        <p className="text-sm md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
+                        <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
                             className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
@@ -81,9 +81,9 @@ const Banner = () => {
                     <div className="flex flex-col items-center space-y-7 lg:mb-20">
                         <h2 className=" text-3xl md:text-6xl font-extrabold text-center text-white"><span className='text-[#fcb41e]'>Your Happy Moment</span>
                             <br />
-                            <span className='text-5xl'>Our desire</span>
+                            <span className='md:text-5xl text-3xl'>Our desire</span>
                         </h2>
-                        <p className="text-sm md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
+                        <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
                         <button
                             className="btn bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-xl font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>

@@ -8,7 +8,7 @@ const Footer = () => {
                 <aside>
                     <img src={logo2} width="120" height="120" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd" className="fill-current"></img>
                     <p className="ml-12 font-normal text-[#b1aeae]">Event Agency</p>
-                    <p className='mt-3 ml-2 text-lg'>Creative and elegant <br /> event design and planning</p>
+                    <p className='mt-3 ml-2 lg:text-lg'>Creative and elegant <br /> event design and planning</p>
                 </aside>
                 <nav>
                     <header className="footer-title">Services</header>
@@ -34,7 +34,9 @@ const Footer = () => {
             </div>
             <div className="footer footer-center p-5 border-t-[3px] footer2" >
                 <aside>
-                    <p>Copyright © 2023 - Mohammad Shimul || Assignment-9 PH </p>
+                    <p className=''>Copyright © 2023 - 
+                    Mohammad Shimul || Assignment-9 PH
+                    </p>
                 </aside>
             </div>
         </footer>

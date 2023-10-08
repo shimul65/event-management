@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "img": "party1.jpg",
+        "partyDate": "10-May-2023",
+        "partyTitle": "Spring Fling"
+    },
+    {
+        "id": 2,
+        "img": "party2.jpg",
+        "partyDate": "15-Jun-2023",
+        "partyTitle": "Beach Bash"
+    },
+    {
+        "id": 3,
+        "img": "party3.jpg",
+        "partyDate": "20-Jul-2023",
+        "partyTitle": "Neon Night"
+    },
+    {
+        "id": 4,
+        "img": "party4.jpg",
+        "partyDate": "5-Aug-2023",
+        "partyTitle": "Masquerade Ball"
+    },
+    {
+        "id": 5,
+        "img": "party5.jpg",
+        "partyDate": "12-Sep-2023",
+        "partyTitle": "Summer Soiree"
+    },
+    {
+        "id": 6,
+        "img": "party6.jpg",
+        "partyDate": "25-Oct-2023",
+        "partyTitle": "Garden Gala"
+    },
+    {
+        "id": 7,
+        "img": "party7.jpg",
+        "partyDate": "2-Nov-2023",
+        "partyTitle": "Pirate Party"
+    },
+    {
+        "id": 8,
+        "img": "party8.jpg",
+        "partyDate": "8-Dec-2023",
+        "partyTitle": "Holiday Mixer"
+    },
+    {
+        "id": 9,
+        "img": "party9.jpg",
+        "partyDate": "15-Jan-2023",
+        "partyTitle": "Winter Wonderland"
+    },
+    {
+        "id": 10,
+        "img": "party10.jpg",
+        "partyDate": "14-Feb-2023",
+        "partyTitle": "Valentine's Dance"
+    },
+    {
+        "id": 11,
+        "img": "party11.jpg",
+        "partyDate": "22-Mar-2023",
+        "partyTitle": "St. Patrick's Celebration"
+    },
+    {
+        "id": 12,
+        "img": "party12.jpg",
+        "partyDate": "10-Apr-2023",
+        "partyTitle": "Easter Extravaganza"
+    },
+    {
+        "id": 13,
+        "img": "party13.jpg",
+        "partyDate": "5-May-2023",
+        "partyTitle": "Cinco de Mayo Fiesta"
+    },
+    {
+        "id": 14,
+        "img": "party14.jpg",
+        "partyDate": "18-Jun-2023",
+        "partyTitle": "Summer Kickoff"
+    },
+    {
+        "id": 15,
+        "img": "party15.jpg",
+        "partyDate": "4-Jul-2023",
+        "partyTitle": "Independence Day BBQ"
+    },
+    {
+        "id": 16,
+        "img": "party16.jpg",
+        "partyDate": "9-Aug-2023",
+        "partyTitle": "Luau Party"
+    }
+]

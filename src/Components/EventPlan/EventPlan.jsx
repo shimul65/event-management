@@ -7,11 +7,11 @@ import { LuPartyPopper } from "react-icons/Lu";
 const EventPlan = () => {
     return (
         <div className="my-8 md:my-14">
-            <h2 className=" text-3xl md:text-5xl font-extrabold text-center"><span className='text-[#fcb41e]'>Hello!</span> We Are an Event Planning Agency
+            <h2 className=" px-10 md:px-0 text-3xl md:text-5xl font-extrabold text-center"><span className='text-[#fcb41e]'>Hello!</span> We Are an Event Planning Agency
             </h2>
             <div className="my-4 text-[#fcb41e] flex justify-center text-5xl"><AiOutlineDash></AiOutlineDash></div>
-            <p className="text-center">As the premier event planning company in the area, we know that it’s not “one size fits all”. <br /> Each event and client is unique and we believe our services should be as well. <br /> We know that it should be “Can I hire a planner?” not “Can I afford one?”.</p>
-            <div className="grid grid-cols-1 md:grid-cols-7 mx-2 md:mx-52 my-14">
+            <p className="text-center px-16 md:px-0">As the premier event planning company in the area, we know that it’s not “one size fits all”. <br /> Each event and client is unique and we believe our services should be as well. <br /> We know that it should be “Can I hire a planner?” not “Can I afford one?”.</p>
+            <div className="grid grid-cols-1 gap-6 lg:gap-0 md:gap-10 md:grid-cols-3 lg:grid-cols-7 mx-2  md:mx-28 lg:mx-52 my-14">
                 <div className="flex flex-col items-center justify-center">
                     <div className="text-5xl text-[#ff635c]">
                         <HiOutlineHomeModern></HiOutlineHomeModern>
@@ -32,7 +32,7 @@ const EventPlan = () => {
                     </p>
                     <p className="p-2 w-10 text-center text-white bg-[#fcb41e] rounded-full">2</p>
                 </div>
-                <div className="event-plan-footer mb-5 border-b-[3px]">
+                <div className="event-plan-footer block md:hidden lg:block mb-5 border-b-[3px]">
                 </div>
                 <div className="flex flex-col items-center justify-center">
                     <div className="text-5xl text-[#ff635c]">

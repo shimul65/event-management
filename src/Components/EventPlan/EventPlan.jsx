@@ -7,7 +7,7 @@ import { LuPartyPopper } from "react-icons/Lu";
 const EventPlan = () => {
     return (
         <div className="my-8 md:my-14">
-            <h2 className=" px-10 md:px-0 text-3xl md:text-5xl font-extrabold text-center"><span className='text-[#fcb41e]'>Hello!</span> We Are an Event Planning Agency
+            <h2 className=" px-10 md:px-0 text-3xl md:text-5xl font-extrabold text-center"><span className='text-[#fcb41e]'>Hello!</span> We Are a Wedding Event Planning Agency
             </h2>
             <div className="my-4 text-[#fcb41e] flex justify-center text-5xl"><AiOutlineDash></AiOutlineDash></div>
             <p className="text-center px-16 md:px-0">As the premier event planning company in the area, we know that it’s not “one size fits all”. <br /> Each event and client is unique and we believe our services should be as well. <br /> We know that it should be “Can I hire a planner?” not “Can I afford one?”.</p>

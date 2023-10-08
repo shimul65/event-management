@@ -3,6 +3,9 @@ import "../../Components/Testimonials/slick.css";
 import "../../Components/Testimonials/slick-theme.css";
 import Slider from "react-slick";
 import { AiOutlineDash } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
+import { RiTwitterXFill } from "react-icons/ri";
 import stuff1 from '../../assets/stuff1.jpg'
 import stuff2 from '../../assets/stuff2.jpg'
 import stuff3 from '../../assets/stuff3.jpg'
@@ -21,27 +24,26 @@ const About = () => {
         pauseOnHover: true,
         responsive: [
             {
-                breakpoint: 1024, // Adjust this value as needed
+                breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2, // Number of slides to show at this breakpoint
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 768, // Adjust this value as needed
+                breakpoint: 768,
                 settings: {
-                    slidesToShow: 2, // Number of slides to show at this breakpoint
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 480, // Adjust this value as needed
+                breakpoint: 480,
                 settings: {
-                    slidesToShow: 1, // Number of slides to show at this breakpoint
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 },
             },
-            // Add more breakpoints and settings as needed
         ],
     };
     return (
@@ -62,6 +64,11 @@ const About = () => {
                                 <img className="rounded-full w-full" src={stuff1} alt="" />
                                 <p className="mt-4">MARK ANDERSON</p>
                                 <p className="text-[#a3a3a6] text-lg">Director</p>
+                                <div className="grid grid-flow-col gap-4">
+                                    <a className="text-2xl" target='blank' href='https://twitter.com/'><FaFacebookF></FaFacebookF></a>
+                                    <a className="text-3xl" target='blank' href='https://youtube.com/'><AiFillInstagram></AiFillInstagram></a>
+                                    <a className="text-2xl" target='blank' href='https://facebook.com/'><RiTwitterXFill></RiTwitterXFill></a>
+                                </div>
                             </div>
                         </div>
                         <div className="p-10 rounded-3xl">
@@ -70,6 +77,11 @@ const About = () => {
                                 <img className="rounded-full w-full" src={stuff2} alt="" />
                                 <p className="mt-4">JENIFER LOPEZ</p>
                                 <p className="text-[#a3a3a6] text-lg">Artist</p>
+                                <div className="grid grid-flow-col gap-4">
+                                    <a className="text-2xl" target='blank' href='https://twitter.com/'><FaFacebookF></FaFacebookF></a>
+                                    <a className="text-3xl" target='blank' href='https://youtube.com/'><AiFillInstagram></AiFillInstagram></a>
+                                    <a className="text-2xl" target='blank' href='https://facebook.com/'><RiTwitterXFill></RiTwitterXFill></a>
+                                </div>
                             </div>
                         </div>
                         <div className="p-10 rounded-3xl">
@@ -78,6 +90,11 @@ const About = () => {
                                 <img className="rounded-full w-full" src={stuff3} alt="" />
                                 <p className="mt-4">ADAM SMITH</p>
                                 <p className="text-[#a3a3a6] text-lg">Manager</p>
+                                <div className="grid grid-flow-col gap-4">
+                                    <a className="text-2xl" target='blank' href='https://twitter.com/'><FaFacebookF></FaFacebookF></a>
+                                    <a className="text-3xl" target='blank' href='https://youtube.com/'><AiFillInstagram></AiFillInstagram></a>
+                                    <a className="text-2xl" target='blank' href='https://facebook.com/'><RiTwitterXFill></RiTwitterXFill></a>
+                                </div>
                             </div>
                         </div>
                         <div className="p-10 rounded-3xl">
@@ -86,6 +103,11 @@ const About = () => {
                                 <img className="rounded-full w-full" src={stuff4} alt="" />
                                 <p className="mt-4">ALICIA KEYS</p>
                                 <p className="text-[#a3a3a6] text-lg">Planner</p>
+                                <div className="grid grid-flow-col gap-4">
+                                    <a className="text-2xl" target='blank' href='https://twitter.com/'><FaFacebookF></FaFacebookF></a>
+                                    <a className="text-3xl" target='blank' href='https://youtube.com/'><AiFillInstagram></AiFillInstagram></a>
+                                    <a className="text-2xl" target='blank' href='https://facebook.com/'><RiTwitterXFill></RiTwitterXFill></a>
+                                </div>
                             </div>
                         </div>
                         <div className="p-10 rounded-3xl">
@@ -94,6 +116,11 @@ const About = () => {
                                 <img className="rounded-full w-full" src={stuff5} alt="" />
                                 <p className="mt-4">TAILOR SWIFT</p>
                                 <p className="text-[#a3a3a6] text-lg">Host</p>
+                                <div className="grid grid-flow-col gap-4">
+                                    <a className="text-2xl" target='blank' href='https://twitter.com/'><FaFacebookF></FaFacebookF></a>
+                                    <a className="text-3xl" target='blank' href='https://youtube.com/'><AiFillInstagram></AiFillInstagram></a>
+                                    <a className="text-2xl" target='blank' href='https://facebook.com/'><RiTwitterXFill></RiTwitterXFill></a>
+                                </div>
                             </div>
                         </div>
                     </Slider>

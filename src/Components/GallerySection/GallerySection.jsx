@@ -25,7 +25,7 @@ const GallerySection = () => {
                 }
             </div>
             <div className="flex justify-center items-center gap-6 mt-10">
-                <h2 className=" px-10 md:px-0 text-2xl md:text-4xl font-extrabold text-center">See Our <span className='text-[#fcb41e]'>Best Events</span>  Gallery !
+                <h2 className=" px-10 md:px-0 text-2xl md:text-4xl font-extrabold text-center">See Our <span className='text-[#fcb41e]'>Best Wedding Events</span>  Gallery !
                 </h2>
                 <Link to='/gallery'>
                     <button

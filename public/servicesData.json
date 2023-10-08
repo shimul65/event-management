@@ -1,0 +1,117 @@
+[
+    {
+        "id": 1,
+        "name": "Full Wedding Planning",
+        "image": "https://i.ibb.co/rsKhrqj/service1.jpg",
+        "price": 3500,
+        "shortDescription": "Comprehensive planning from start to finish.",
+        "fullDescription": "Our comprehensive wedding planning service covers every detail from start to finish, ensuring your dream wedding becomes a reality. Our experienced planners will assist with venue selection, catering, floral arrangements, photography, entertainment, and every aspect of your special day.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Personal wedding consultant",
+            "Vendor negotiation and coordination",
+            "Customized wedding design and theme",
+            "Guest list management",
+            "Budget planning and tracking",
+            "Day-of coordination and support"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Venue Selection",
+        "image": "https://i.ibb.co/hXz3HK0/service2.jpg",
+        "price": 800,
+        "shortDescription": "Find your dream wedding venue.",
+        "fullDescription": "Let us help you find the perfect venue that matches your vision, style, and budget for your special day. We have a wide range of exquisite venues to choose from, whether you dream of an elegant ballroom, a rustic barn, or a scenic beachfront setting.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Venue tours and recommendations",
+            "Negotiation of venue contracts",
+            "Site inspections and logistics planning"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Catering Services",
+        "image": "https://i.ibb.co/SVYrp0S/service3.jpg",
+        "price": 3000,
+        "shortDescription": "Exquisite cuisine tailored to your preferences.",
+        "fullDescription": "Delight your guests with exquisite cuisine and professional catering services tailored to your preferences. Our expert chefs will create a custom menu that reflects your tastes, from gourmet appetizers to decadent desserts.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Menu planning and tasting sessions",
+            "Skilled culinary team and waitstaff",
+            "Dietary accommodations"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Floral Arrangements",
+        "image": "https://i.ibb.co/LpQtsm5/service4.jpg",
+        "price": 1200,
+        "shortDescription": "Elevate your wedding decor with stunning flowers.",
+        "fullDescription": "Elevate your wedding decor with stunning floral arrangements and centerpieces that reflect your style. Our talented florists will work with you to choose the perfect blooms and colors to complement your theme.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Customized floral design consultations",
+            "Bouquets, boutonnieres, and centerpieces",
+            "Coordination with venue for floral setup"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Photography & Videography",
+        "image": "https://i.ibb.co/1KRgPGH/service5.jpg",
+        "price": 2500,
+        "shortDescription": "Capture every precious moment.",
+        "fullDescription": "Capture every precious moment of your wedding day with our professional photography and videography services. Our skilled photographers and videographers will document your love story, from the emotional vows to the joyful celebrations.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Engagement photo session",
+            "High-resolution photos and edited videos",
+            "Online gallery for easy sharing"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Entertainment & DJ",
+        "image": "https://i.ibb.co/N2T27PC/service6.jpg",
+        "price": 1500,
+        "shortDescription": "Keep the party going with top-notch entertainment.",
+        "fullDescription": "Ensure your guests have a blast with top-notch entertainment and DJ services to keep the party going. From live bands to skilled DJs, we'll provide the perfect musical entertainment to suit your style and preferences.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Professional DJs and entertainers",
+            "Customizable playlists and song requests",
+            "Lighting and sound equipment"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Wedding Decor Rentals",
+        "image": "https://i.ibb.co/7GzTV9t/service7.jpg",
+        "price": 600,
+        "shortDescription": "Rent exquisite decor to elevate your ambiance.",
+        "fullDescription": "Elevate your wedding ambiance with our wide selection of decor rentals. From elegant table settings to stylish furniture, we have everything you need to create the perfect atmosphere for your big day.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Variety of decor themes and styles",
+            "Delivery and setup services",
+            "Flexible rental periods"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Bridal Hair & Makeup",
+        "image": "https://i.ibb.co/74CwpWG/service8.jpg",
+        "price": 900,
+        "shortDescription": "Look and feel your best on your special day.",
+        "fullDescription": "Look and feel your best on your wedding day with our professional bridal hair and makeup services. Our skilled stylists will create a stunning bridal look that enhances your natural beauty and complements your bridal attire.",
+        "availability": "Available year-round",
+        "benefits": [
+            "Personalized hair and makeup consultations",
+            "High-quality cosmetics and styling products",
+            "On-site services for convenience"
+        ]
+    }
+]

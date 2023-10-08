@@ -7,8 +7,8 @@ const Footer = () => {
             <div className="footer p-10  font-medium">
                 <aside>
                     <img src={logo2} width="120" height="120" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd" className="fill-current"></img>
-                    <p className="ml-12 font-normal text-[#b1aeae]">Event Agency</p>
-                    <p className='mt-3 ml-2 lg:text-lg'>Creative and elegant <br /> event design and planning</p>
+                    <p className="ml-12 font-normal text-[#b1aeae]">Wedding Agency</p>
+                    <p className='mt-3 ml-2 lg:text-lg'>Creative and elegant <br />wedding event design and planning</p>
                 </aside>
                 <nav>
                     <header className="footer-title">Services</header>

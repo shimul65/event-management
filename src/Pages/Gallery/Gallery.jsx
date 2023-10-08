@@ -3,6 +3,7 @@ import GalleryPhoto from "../../Components/GallerySection/GalleryPhoto";
 import { AiOutlineDash } from "react-icons/ai";
 
 
+
 const Gallery = () => {
     const galleryPhotos = useLoaderData();
 

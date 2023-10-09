@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import toast from "react-hot-toast";
+import SocialLogin from "../../Components/SocialLogin/SocialLogin";
 
 
 const Login = () => {
@@ -52,12 +53,14 @@ const Login = () => {
                     </label>
                 </div>
                 <div className="form-control mt-6">
-                    <button className="btn btn-neutral">Login</button>
+                    <button
+                        className="btn rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-lg font-medium md:font-bold text-[#FFF] md:h-16  border-none">LOG IN</button>
                 </div>
             </form>
             <p className="mt-8 text-center">Don’t Have An Account ? <span className="text-red-600 underline font-medium"><Link to='/register'>Register</Link></span></p>
             <div className="divider">continue with</div>
             <div className="md:w-1/2 w-full">
+                <SocialLogin></SocialLogin>
             </div>
         </div>
     );

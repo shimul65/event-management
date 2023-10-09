@@ -64,7 +64,8 @@ const Navbar = () => {
                         </Link>
                 } */}
                 <Link to='/login'>
-                    <button className="btn">Login</button>
+                    <button
+                        className="btn rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-lg font-medium md:font-extrabold text-[#FFF] px-7 border-none">LOG IN</button>
                 </Link>
             </div>
         </div>

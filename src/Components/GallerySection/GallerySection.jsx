@@ -1,12 +1,16 @@
 import axios from "axios";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import GalleryPhoto from "./GalleryPhoto";
 import { AiOutlineDash } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import {  Link,  useLocation } from "react-router-dom";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 
 const GallerySection = () => {
+    const {user} = useContext(AuthContext);
     const [photos, setPhotos] = useState([]);
+
+    const location = useLocation();
 
     axios.get('galleryData.json')
         .then(data => setPhotos(data.data))
@@ -27,7 +31,7 @@ const GallerySection = () => {
             <div className="flex justify-center items-center gap-6 mt-10">
                 <h2 className=" px-10 md:px-0 text-2xl md:text-4xl font-extrabold text-center">See Our <span className='text-[#fcb41e]'>Best Wedding Events</span>  Gallery !
                 </h2>
-                <Link to='/gallery'>
+                <Link state={location.pathname}  to={user ? `/gallery` : `/login`}>
                     <button
                         className="btn px-8 rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-base font-semibold text-[#FFF] md:h-16  border-none">VISIT GALLERY</button>
                 </Link>

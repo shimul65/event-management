@@ -10,6 +10,7 @@ import Register from '../Pages/Register/Register';
 import Contact from '../Pages/Contact/Contact';
 import ServiceDetails from '../Pages/Services/ServiceDetails';
 import Root from '../MainLayout/Root/Root';
+import PrivateRoutes from './PrivateRoutes';
 
 const routes = createBrowserRouter([
     {
@@ -29,7 +30,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/services/:id",
-                element: <ServiceDetails></ServiceDetails>,
+                element: <PrivateRoutes><ServiceDetails></ServiceDetails></PrivateRoutes>,
                 loader: () => fetch(`/servicesData.json`)
             },
             {

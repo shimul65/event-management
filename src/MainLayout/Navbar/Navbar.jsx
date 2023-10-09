@@ -14,7 +14,7 @@ const Navbar = () => {
 
     const { user, logOut } = useContext(AuthContext);
     console.log(user);
-
+    
     const handleLogOut = () => {
         logOut(auth)
             .then(() => {
@@ -31,15 +31,14 @@ const Navbar = () => {
     const navLinks = <>
         <li className=" py-2"><NavLink to='/'>Home</NavLink></li>
         <li className=" py-2"><NavLink to='/services'>Services</NavLink></li>
-        <li className=" py-2"><NavLink to='/gallery'>Gallery</NavLink></li>
-        <li className=" py-2"><NavLink to='/blogs'>Blogs</NavLink></li>
+        {user && <>
+            <li className=" py-2"><NavLink to='/gallery'>Gallery</NavLink></li>
+            <li className=" py-2"><NavLink to='/blogs'>Blogs</NavLink></li>
+        </>
+        }
         <li className=" py-2"><NavLink to='/about'>About</NavLink></li>
         <li className=" py-2"><NavLink to='/contact'>Contact</NavLink></li>
-        {/* {user && <>
-            <li><NavLink to='/profile'>Profile</NavLink></li>
-            <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
-        </>
-        } */}
+
     </>
 
 
@@ -68,7 +67,7 @@ const Navbar = () => {
                         <div className="dropdown dropdown-end ">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-24 rounded-full">
-                                    <img src={ user ? user.photoURL : profile} />
+                                    <img src={user ? user.photoURL : profile} />
                                 </div>
                             </label>
                             <ul tabIndex={0} className="menu border menu-sm dropdown-content mt-3 z-[1] p-2 shadow-2xl bg-base-100 rounded-box w-fit">

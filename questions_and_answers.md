@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer is --> A: {}
 
-<i>Write your explanation here</i>
+<i>Although greeting is declare initially but '{}' is assign in greetign and when you console greetign it will give back {} </i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer is --> B: "12"
 
-<i>Write your explanation here</i>
+<i>Here, sum function receive two parameters and return sum of this two params. When you call sum function with a number and a string it will concatenation this two value (number and string) and return string ("12")  </i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer is ---> A: `['🍕', '🍫', '🥑', '🍔']`
 
-<i>Write your explanation here</i>
+<i>Here, info.favoriteFood = "🍝"; is changing the value of the favoriteFood property, but it doesn't have any direct connection to the food array that's why the food array will remain same</i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer ---> B: `Hi there, undefined`
 
-<i>Write your explanation here</i>
+<i>sayHi() function expect a parameter but when tou call this sayHi() function without passing a parameter and console or return it in template string like return `Hi there, ${name}` , but the value of name is undefined as you don't give any parameter when you call this function that's why it will return --> `Hi there, undefined` </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer is ---> C: 3
 
-<i>Write your explanation here</i>
+<i>Here, initially let a value of count is 0 and nums is a array with 4 numbers (0,1,2,3). by using for each loop you gat a num and the condition is if number is true so count value is increase by 1.in first loop 0 is get a num which is falsy and count variable doesn't change after 3 times num will get truthy value and count value is finally 3.</i>
 
 </p>
 </details>

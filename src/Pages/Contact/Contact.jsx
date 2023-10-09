@@ -1,16 +1,28 @@
 import { AiOutlineDash } from "react-icons/ai";
 import { CiLocationOn, CiTimer } from "react-icons/ci";
 import { BsTelephone, BsCheckSquare } from "react-icons/bs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <div className="my-8 md:my-20">
-            <h2 className=" px-10 md:px-0 text-3xl md:text-5xl font-extrabold text-center">Contact With Us
+            <h2 data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1200" className=" px-10 md:px-0 text-3xl md:text-5xl font-extrabold text-center">Contact With Us
             </h2>
             <div className="mt-4 text-[#fcb41e] flex justify-center text-5xl"><AiOutlineDash></AiOutlineDash></div>
             <div className="grid grid-cols-1 gap-6 lg:gap-0 md:gap-10 md:grid-cols-3 lg:grid-cols-7 mx-2 md:mx-14 lg:mx-24 my-14">
-                <div className="flex py-10 border rounded-full shadow-2xl flex-col items-center justify-center">
+                <div data-aos="flip-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1300" className="flex py-10 border rounded-full shadow-2xl flex-col items-center justify-center">
                     <div className="text-5xl text-[#ff635c]">
                         <CiLocationOn></CiLocationOn>
                     </div>
@@ -23,7 +35,9 @@ const Contact = () => {
                 </div>
                 <div className="event-plan-footer my-8 md:my-0 md:mb-[50%] border-b-[3px]">
                 </div>
-                <div className="flex py-10 rounded-full shadow-2xl border flex-col items-center justify-center">
+                <div data-aos="flip-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1300" className="flex py-10 rounded-full shadow-2xl border flex-col items-center justify-center">
                     <div className="text-5xl text-[#ff635c]">
                         <BsTelephone></BsTelephone>
                     </div>
@@ -36,7 +50,9 @@ const Contact = () => {
                 </div>
                 <div className="event-plan-footer block md:hidden lg:block my-8 md:my-0 md:mb-[50%]  border-b-[3px]">
                 </div>
-                <div className="flex rounded-full shadow-2xl py-10 border flex-col items-center justify-center">
+                <div data-aos="flip-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1300" className="flex rounded-full shadow-2xl py-10 border flex-col items-center justify-center">
                     <div className="text-5xl text-[#ff635c]">
                         <CiTimer></CiTimer>
                     </div>
@@ -49,7 +65,9 @@ const Contact = () => {
                 </div>
                 <div className="event-plan-footer my-8 md:my-0 md:mb-[50%]  border-b-[3px]">
                 </div>
-                <div className="flex px-1 rounded-full shadow-2xl py-10 border flex-col items-center justify-center">
+                <div data-aos="flip-left"
+                    data-aos-easing="linear"
+                    data-aos-duration="1300" className="flex px-1 rounded-full shadow-2xl py-10 border flex-col items-center justify-center">
                     <div className="text-5xl text-[#ff635c]">
                         <BsCheckSquare></BsCheckSquare>
                     </div>

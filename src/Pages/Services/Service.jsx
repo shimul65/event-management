@@ -1,12 +1,21 @@
 import { BsCurrencyDollar } from "react-icons/bs";
 import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Service = ({ service }) => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     const { id, name, image, price, shortDescription } = service;
 
     return (
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div data-aos="zoom-in"
+            data-aos-easing="linear"
+            data-aos-duration="1200" className="card card-compact bg-base-100 shadow-xl">
             <div className='relative'>
                 <figure><img src={image} alt="gallery photo" /></figure>
                 <div className="absolute top-0 text-white bg-[#fcb41e] w-fit px-3 py-1 rounded-r-2xl flex items-center gap-1">

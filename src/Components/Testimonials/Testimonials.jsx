@@ -6,8 +6,16 @@ import testimonial1 from '../../assets/testimonial1.jpg'
 import testimonial2 from '../../assets/testimonial2.jpg'
 import testimonial3 from '../../assets/testimonial3.jpg'
 import testimonial4 from '../../assets/testimonial4.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Testimonials = () => {
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     const settings = {
         dots: true,
         infinite: true,
@@ -18,35 +26,38 @@ const Testimonials = () => {
         pauseOnHover: true,
         responsive: [
             {
-                breakpoint: 1024, // Adjust this value as needed
+                breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2, // Number of slides to show at this breakpoint
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 768, // Adjust this value as needed
+                breakpoint: 768,
                 settings: {
-                    slidesToShow: 2, // Number of slides to show at this breakpoint
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 },
             },
             {
-                breakpoint: 480, // Adjust this value as needed
+                breakpoint: 480,
                 settings: {
-                    slidesToShow: 1, // Number of slides to show at this breakpoint
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 },
             },
-            // Add more breakpoints and settings as needed
+
         ],
     };
     return (
         <div className="bg-[#f5f5f6] py-8 md:py-14">
-            <h2 className=" text-3xl md:text-5xl font-extrabold text-center">Testimonials
+            <h2 data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1200" className=" text-3xl md:text-5xl font-extrabold text-center">Testimonials
             </h2>
             <div className="my-2 text-[#fcb41e] flex justify-center text-5xl"><AiOutlineDash></AiOutlineDash></div>
-            <p className="text-center text-[#a3a3a6] text-sm">HAPPY CLIENTS ABOUT US</p>
+            <p data-aos="zoom-in" data-aos-easing="linear"
+                data-aos-duration="1200" className="text-center text-[#a3a3a6] text-sm">HAPPY CLIENTS ABOUT US</p>
             <div className="mt-10 mx-8 md:mx-12 lg:mx-20">
                 <Slider className={`md:`} {...settings}>
                     <div className="border p-10 rounded-3xl bg-white">

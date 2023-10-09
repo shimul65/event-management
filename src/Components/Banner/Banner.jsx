@@ -1,9 +1,16 @@
+import { useEffect } from 'react';
 import banner1 from '../../assets/banner1.jpg'
 import banner2 from '../../assets/banner2.jpg'
 import banner3 from '../../assets/banner3.jpg'
 import banner4 from '../../assets/banner4.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Banner = () => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
         <div className="carousel w-full relative rounded-lg my-5 ">
             {/* banner slider 1*/}
@@ -12,12 +19,17 @@ const Banner = () => {
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="">
                     <div className="flex flex-col items-center space-y-7 lg:mb-20">
-                        <h2 className=" text-3xl md:text-7xl font-extrabold text-center text-white"><span className='text-[#fcb41e]'>We Create</span>
+                        <h2 data-aos="fade-down"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500" className=" text-3xl md:text-7xl font-extrabold text-center text-white"><span className='text-[#fcb41e]'>We Create</span>
                             <br />
                             You Celebrate
                         </h2>
-                        <p className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
-                        <button
+                        <p data-aos="zoom-in" data-aos-easing="linear"
+                            data-aos-duration="1500" className="text-sm px-16 md:px-0 md:text-lg font-medium text-white text-center">Planning a Wedding, Proposal or Event in your busy city is not so easy. <br />It takes skills and time to make it all easy-going</p>
+                        <button data-aos="fade-up"
+                            data-aos-easing="linear"
+                            data-aos-duration="1500"
                             className="btn rounded-full bg-[#ff635c] hover:bg-[#fcb41e] hover:text-primary-bg text-xs md:text-lg font-medium md:font-extrabold text-[#FFF] w-[150px] md:h-16  border-none">CONTACT US</button>
                     </div>
                     <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

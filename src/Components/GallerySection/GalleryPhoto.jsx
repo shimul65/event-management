@@ -1,12 +1,22 @@
 import { LuPartyPopper } from "react-icons/Lu";
 import { AiOutlineCalendar } from "react-icons/ai";
 import PropTypes from 'prop-types';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 
 const GalleryPhoto = ({ singlePhoto }) => {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     const { img, partyDate, partyTitle } = singlePhoto;
 
     return (
-        <div className="card card-compact bg-base-100 shadow-xl">
+        <div data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000" className="card card-compact duration-300 cursor-pointer hover:scale-105 hover:bg-[#f1c158] shadow-xl ">
             <figure><img src={img} alt="gallery photo" /></figure>
             <div className="card-body">
                 <div className="flex items-center gap-3">

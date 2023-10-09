@@ -1,8 +1,9 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router-dom";
 import SocialLogin from "../../Components/SocialLogin/SocialLogin";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 
 const Register = () => {
@@ -11,6 +12,9 @@ const Register = () => {
 
     const { createUser, handleUpdateProfile } = useContext(AuthContext);
 
+    //show password
+    const [showPass, setShowPass] = useState(false);
+
     const handleRegister = (e) => {
         e.preventDefault();
         const form = new FormData(e.currentTarget);
@@ -18,6 +22,26 @@ const Register = () => {
         const photoURL = form.get('photoURL');
         const email = form.get('email');
         const password = form.get('password');
+        const isAccepted = form.get('terms') === 'on';
+
+
+        // password validation check
+        if (password.length < 6) {
+            toast.error('Password should be at least 6 characters or longer');
+            return
+        }
+        else if (!/[A-Z]/.test(password)) {
+            toast.error('Your Password should contain an uppercase letter')
+            return;
+        }
+        else if (!/[!@#%^&*()_+\-=\[\]{}|;\\':",.<>?~`]/.test(password)) {
+            toast.error('Your Password should contain a special character');
+            return;
+        }
+        else if (!isAccepted) {
+            toast.error('Please accept our terms & conditions');
+            return;
+        }
 
         //create new user
         createUser(email, password)
@@ -70,7 +94,14 @@ const Register = () => {
                         <label className="label">
                             <span className=" label-text font-semibold">Password</span>
                         </label>
-                        <input type="password" placeholder="Enter your password" className="input input-bordered" name="password" required />
+                        <div className=" relative ">
+                            <input type={showPass ? "text" : "password"}
+                                placeholder="Enter your password" className="input w-full input-bordered" name='password' required />
+                            <span onClick={() => setShowPass(!showPass)} className="absolute top-3 right-8 text-2xl ">
+                                {
+                                    showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
+                                }</span>
+                        </div>
                     </div>
                     <div className='mt-4 flex gap-2 items-center'>
                         <input type="checkbox" name="terms" id="terms" />
@@ -92,3 +123,4 @@ const Register = () => {
 };
 
 export default Register;
+

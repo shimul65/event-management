@@ -1,8 +1,9 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Providers/AuthProvider";
 import toast from "react-hot-toast";
 import SocialLogin from "../../Components/SocialLogin/SocialLogin";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 
 const Login = () => {
@@ -12,6 +13,9 @@ const Login = () => {
     const navigate = useNavigate();
 
     const location = useLocation();
+
+    //show password
+    const [showPass, setShowPass] = useState(false);
 
 
     const handleLogin = (e) => {
@@ -53,7 +57,14 @@ const Login = () => {
                     <label className="label">
                         <span className="label-text">Password</span>
                     </label>
-                    <input type="password" placeholder="Enter your password" className="input input-bordered" name="password" required />
+                    <div className=" relative ">
+                        <input type={showPass ? "text" : "password"}
+                            placeholder="Enter your password" className="input w-full input-bordered" name='password' required />
+                        <span onClick={() => setShowPass(!showPass)} className="absolute top-3 right-8 text-2xl ">
+                            {
+                                showPass ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>
+                            }</span>
+                    </div>
                     <label className="label">
                         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                     </label>

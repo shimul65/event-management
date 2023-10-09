@@ -3,9 +3,12 @@ import { AuthContext } from "../../Providers/AuthProvider";
 import toast from "react-hot-toast";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FcGoogle } from "react-icons/fc";
+import { useNavigate } from "react-router-dom";
 
 
 const SocialLogin = () => {
+
+    const navigate = useNavigate();
 
     const { googleLogin, githubLogin } = useContext(AuthContext);
 
@@ -15,6 +18,7 @@ const SocialLogin = () => {
                 const user = result.user;
                 console.log(user);
                 toast.success('User Sign In Successfully')
+                navigate('/');
             })
             .catch(error => {
                 const errorCode = error.code;

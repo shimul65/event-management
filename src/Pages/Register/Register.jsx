@@ -1,13 +1,15 @@
 import { useContext } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
 import toast from "react-hot-toast";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import SocialLogin from "../../Components/SocialLogin/SocialLogin";
 
 
 const Register = () => {
 
-    const { createUser } = useContext(AuthContext);
+    const navigate = useNavigate();
+
+    const { createUser, handleUpdateProfile } = useContext(AuthContext);
 
     const handleRegister = (e) => {
         e.preventDefault();
@@ -16,13 +18,21 @@ const Register = () => {
         const photoURL = form.get('photoURL');
         const email = form.get('email');
         const password = form.get('password');
-        console.log(name, photoURL, email, password)
 
         //create new user
         createUser(email, password)
             .then(result => {
                 const user = result.user;
                 console.log(user);
+
+                // update profile
+                handleUpdateProfile(name, photoURL)
+                    .then(() => {
+                        navigate('/');
+                        toast.success('User Sign Up Successfully')
+                    }).catch((error) => {
+                        console.log(error);
+                    });
             })
             .catch(error => {
                 const errorCode = error.code;
